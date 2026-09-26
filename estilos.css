@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'minecraft';
+    src: url("minecraft/Minecraft.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'matcha';
+    src: url("minecraft/Matcha\ World.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'cherly';
+    src: url("minecraft/CHERL___.TTF") format('truetype');
+}
+
+@font-face {
+    font-family: 'pokemon';
+    src: url("minecraft/Pokemon\ Solid.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'dynamix';
+    src: url("minecraft/Dynamix.ttf") format('truetype');
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    color: #D4AF37; 
+    text-shadow: 5px 5px 0px #1A1A1A; 
+}
+
+
+a{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-decoration: none;
+    background: #2C3E50; 
+    color: #FDFEFE; 
+    width: 300px;
+    height: 60px; 
+    font-size: 30px;
+    margin: 10px auto;
+    border: #935116 groove 5px; 
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 0px 5px #17202A; 
+    font-family: 'minecraft', sans-serif;
+}
+
+
+a:nth-of-type(2) {
+    font-family: 'matcha', sans-serif;
+    background: #145A32; 
+    color: #EAEDED; 
+    border: #7D6608 solid 5px; 
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #0B5345; 
+}
+
+
+a:nth-of-type(3) {
+    font-family: 'cherly', sans-serif;
+    background: #641E16; 
+    color: #F5EEF8; 
+    border: #D4AC0D solid 5px; 
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #4A235A; 
+}
+
+
+a:nth-of-type(4) {
+    font-family: 'pokemon', sans-serif;
+    background: #154360; 
+    color: #EBF5FB; 
+    border: #839192 solid 5px; 
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #1B4F72; 
+}
+
+a:nth-of-type(5) {
+    font-family: 'dynamix', sans-serif;
+    background: #4A235A; 
+    color: #FDEDEC; 
+    border: #BFC9CA solid 5px; 
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #512E5F; 
+}
+
+a:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #17202A; 
+    color: #D4AF37; 
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    margin: 10px auto;
+    border: #D4AF37 groove 5px; 
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px #F1C40F; 
+    font-family: "Arial Black", sans-serif;
+    transition: 1s ease all;
+    transform: scale(1.1);
+}
