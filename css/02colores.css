@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #4509d2 0%, #31dec1 100%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #00eeff;
+    margin: 10px auto;
+}
+
+#c1 {
+    background: red;
+}
+
+#c2 {
+    background: blue;
+}
+
+#c3{
+    background: indigo;
+}
+
+#c4{
+    background: #00eeff;
+}
+#c5{
+    background: #00ff00;
+}
+#c6{
+    background: #ffff00;
+}
+#c7{
+    background: rgb(255, 0, 255);
+}
+#c8{
+    background: rgb(255, 255, 0);
+}
+#c9{
+    background: rgb(255, 0, 100);
+}
+#d1 {
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
+#d2 {
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: #FFFFFF; /* Hexadecimal */
+}
+#d3 {
+    background: #fc466b;
+    background: linear-gradient(90deg, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
+}
+#d4 {
+    background: #00C9FF;
+    background: linear-gradient(180deg, rgba(0,201,255,1) 0%, rgba(146,254,157,1) 100%);
+}
+#d5 {
+    background: #f12711;
+    background: linear-gradient(180deg, rgba(241,39,17,1) 0%, rgba(245,175,25,1) 100%);
+}
+#d6 {
+    background: #89216B;
+    background: linear-gradient(180deg, rgba(137,33,107,1) 0%, rgba(218,68,83,1) 100%);
+}
+#rgba1 {
+    background: rgba(255, 99, 71, 0.8);
+}
+#rgba2 {
+    background: rgba(60, 179, 113, 0.6);
+}
+#rgba3 {
+    background: rgba(65, 105, 225, 0.9);
+}
+#hsl1 {
+    background: hsl(340, 100%, 50%);
+}
+#hsl2 {
+    background: hsl(120, 60%, 70%);
+}
+#hsl3 {
+    background: hsl(200, 80%, 40%);
+}
+#rad1 {
+    background: #ff9a9e;
+    background: radial-gradient(circle, rgba(255,154,158,1) 0%, rgba(254,207,239,1) 100%);
+}
+#rad2 {
+    background: #a18cd1;
+    background: radial-gradient(circle, rgba(161,140,209,1) 0%, rgba(251,194,235,1) 100%);
+}
+#rad3 {
+    background: #84fab0;
+    background: radial-gradient(circle, rgba(132,250,176,1) 0%, rgba(143,211,244,1) 100%);
+}
+#hwb1 {
+    background: hwb(12 50% 0%);
+}
+#hwb2 {
+    background: hwb(194 0% 0%);
+}
+#hwb3 {
+    background: hwb(280 20% 10%);
+}
+
