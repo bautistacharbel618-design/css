@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* EJEMPLO 1 */
+.ejemplo {
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.sombra1 {
+    background-color: lightblue;
+    box-shadow: 10px 10px 10px gray;
+}
+
+/* EJEMPLO 2 */
+.sombra2 {
+    background-color: lightgreen;
+    box-shadow: 0px 0px 30px darkgreen;
+}
+
+/* EJEMPLO 3 */
+.sombra3 {
+    background-color: lightyellow;
+    text-shadow: 4px 4px 5px gray;
+}
+
+/* EJEMPLO 4 */
+.sombra4 {
+    background-color: pink;
+    box-shadow: inset 0px 0px 20px red;
+}
+
+/* EJEMPLO 5 */
+.sombra5 {
+    background-color: lavender;
+    box-shadow:
+        5px 5px 10px blue,
+        -5px -5px 10px purple;
+}

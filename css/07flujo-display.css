@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* EJEMPLO GENERAL */
+.ejemplo {
+    width: 700px;
+    max-width: 95%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+/* EJEMPLO 1: BLOCK */
+.display1 {
+    display: block;
+    background-color: lightblue;
+    border: 5px solid blue;
+}
+
+/* EJEMPLO 2: INLINE */
+.inline1 {
+    display: inline;
+    background-color: lightgreen;
+    border: 5px solid green;
+    padding: 10px;
+}
+
+.inline2 {
+    display: inline;
+    background-color: lightblue;
+    border: 5px solid blue;
+    padding: 10px;
+}
+
+/* EJEMPLO 3: INLINE-BLOCK */
+.caja-inline {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    background-color: lightyellow;
+    border: 5px solid orange;
+    padding: 15px;
+    margin: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+/* EJEMPLO 4: DISPLAY NONE */
+.display4 {
+    background-color: pink;
+    border: 5px solid red;
+}
+
+.display4 .oculto {
+    display: none;
+}
+
+/* EJEMPLO 5: FLUJO NORMAL */
+.display5 {
+    display: block;
+    background-color: lavender;
+    border: 5px solid purple;
+    margin-bottom: 30px;
+}
+
+/* VIDEO */
+video {
+    max-width: 95%;
+    height: auto;
+}

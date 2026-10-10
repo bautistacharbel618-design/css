@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flujo Normal y Display</title>
+
+    <link rel="stylesheet" href="CSS/07flujo-display.css">
+</head>
+
+<body>
+
+    <h1>FLUJO NORMAL Y DISPLAY</h1>
+
+    <a href="index.html">REGRESAR</a>
+
+    <br><br><br>
+    <hr>
+
+    <h3><strong>1. INTRODUCCIÓN</strong></h3>
+
+    <br>
+
+    <p>
+        El flujo normal en CSS es la forma en la que los elementos HTML se
+        acomodan automáticamente dentro de una página. Los elementos se
+        colocan siguiendo el orden en el que aparecen en el código HTML.
+        La propiedad display permite cambiar la forma en la que un elemento
+        se comporta dentro de este flujo. Algunos valores importantes son
+        block, que hace que el elemento comience en una nueva línea y
+        normalmente ocupe todo el ancho disponible; inline, que permite
+        que varios elementos estén en la misma línea; inline-block, que
+        permite colocar elementos en línea y modificar su tamaño; y none,
+        que oculta un elemento y elimina el espacio que ocupaba.
+    </p>
+
+    <br><br>
+
+    <h3><strong>2. EJEMPLOS BÁSICOS</strong></h3>
+
+    <br>
+
+    <!-- EJEMPLO 1 -->
+    <div class="ejemplo display1">
+        <h3><strong>Ejemplo 1: Display Block</strong></h3>
+
+        <p>
+            Los elementos block comienzan en una nueva línea y normalmente
+            ocupan todo el ancho disponible.
+        </p>
+    </div>
+
+    <!-- EJEMPLO 2 -->
+    <div class="ejemplo">
+        <h3><strong>Ejemplo 2: Display Inline</strong></h3>
+
+        <br>
+
+        <span class="inline1">Elemento 1</span>
+        <span class="inline2">Elemento 2</span>
+
+        <br><br>
+
+        <p>
+            Los elementos inline pueden colocarse en la misma línea.
+        </p>
+    </div>
+
+    <!-- EJEMPLO 3 -->
+    <div class="ejemplo">
+        <h3><strong>Ejemplo 3: Inline-Block</strong></h3>
+
+        <br>
+
+        <div class="caja-inline">Elemento 1</div>
+        <div class="caja-inline">Elemento 2</div>
+
+        <br><br>
+
+        <p>
+            Inline-block permite colocar elementos en línea y modificar
+            su ancho y alto.
+        </p>
+    </div>
+
+    <!-- EJEMPLO 4 -->
+    <div class="ejemplo display4">
+        <h3><strong>Ejemplo 4: Display None</strong></h3>
+
+        <p>
+            Este texto está oculto utilizando display: none.
+        </p>
+
+        <p class="oculto">
+            Este párrafo no se muestra en la página.
+        </p>
+    </div>
+
+    <!-- EJEMPLO 5 -->
+    <div class="ejemplo display5">
+        <h3><strong>Ejemplo 5: Flujo Normal</strong></h3>
+
+        <p>
+            Los elementos aparecen uno debajo de otro siguiendo el orden
+            del HTML.
+        </p>
+    </div>
+
+    <br>
+
+    <h3><strong>3. VIDEO DE EXPLICACIÓN</strong></h3>
+
+    <br>
+
+    <video controls width="600">
+        <source src="video/video5.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+
+    <br><br>
+
+</body>
+
+</html>
+```

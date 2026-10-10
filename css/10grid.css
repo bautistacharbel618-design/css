@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* EJEMPLO GENERAL */
+.ejemplo {
+    width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    border: 5px solid;
+}
+
+/* CAJAS */
+.contenedor {
+    margin-top: 20px;
+}
+
+.contenedor div {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* EJEMPLO 1 */
+.grid1 {
+    background-color: lightblue;
+    border-color: blue;
+}
+
+.grid1 .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid1 .contenedor div {
+    background-color: blue;
+    color: white;
+}
+
+/* EJEMPLO 2 */
+.grid2 {
+    background-color: lightgreen;
+    border-color: green;
+}
+
+.grid2 .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid2 .contenedor div {
+    background-color: green;
+    color: white;
+}
+
+/* EJEMPLO 3 */
+.grid3 {
+    background-color: lightyellow;
+    border-color: orange;
+}
+
+.grid3 .contenedor {
+    display: grid;
+    grid-template-rows: 70px 70px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid3 .contenedor div {
+    background-color: orange;
+    color: white;
+}
+
+/* EJEMPLO 4 */
+.grid4 {
+    background-color: pink;
+    border-color: red;
+}
+
+.grid4 .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.grid4 .contenedor div {
+    background-color: red;
+    color: white;
+}
+
+/* EJEMPLO 5 */
+.grid5 {
+    background-color: lavender;
+    border-color: purple;
+}
+
+.grid5 .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid5 .contenedor div {
+    background-color: purple;
+    color: white;
+}
+
+.grid5 .grande {
+    grid-column: 1 / 3;
+}

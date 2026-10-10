@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* EJEMPLO 1 */
+.ejemplo {
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.fondo1 {
+    background-color: lightblue;
+}
+
+/* EJEMPLO 2 */
+.fondo2 {
+    background-image: url("../minecraft/logo.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 180px;
+}
+
+/* EJEMPLO 3 */
+.fondo3 {
+    background: linear-gradient(to right, blue, purple);
+    color: white;
+}
+
+/* EJEMPLO 4 */
+.fondo4 {
+    background-color: lightyellow;
+    background-image: radial-gradient(black 2px, transparent 2px);
+    background-size: 20px 20px;
+}
+
+/* EJEMPLO 5 */
+.fondo5 {
+    background: linear-gradient(to bottom, lightgreen, lightblue);
+    min-height: 200px;
+    padding: 50px;
+}
