@@ -28,19 +28,21 @@ p {
     line-height: 1.5;
 }
 
-/* EJEMPLO 1 */
+/* EJEMPLO GENERAL */
 .ejemplo {
     width: 500px;
+    max-width: 95%;
     margin: 30px auto;
     padding: 30px;
     text-align: center;
 }
 
+/* EJEMPLO 1: COLOR */
 .fondo1 {
     background-color: lightblue;
 }
 
-/* EJEMPLO 2 */
+/* EJEMPLO 2: IMAGEN */
 .fondo2 {
     background-image: url("../minecraft/logo.png");
     background-size: cover;
@@ -49,22 +51,31 @@ p {
     min-height: 180px;
 }
 
-/* EJEMPLO 3 */
+/* EJEMPLO 3: DEGRADADO */
 .fondo3 {
     background: linear-gradient(to right, blue, purple);
     color: white;
 }
 
-/* EJEMPLO 4 */
+/* EJEMPLO 4: FONDO REPETIDO (puntos) */
 .fondo4 {
     background-color: lightyellow;
     background-image: radial-gradient(black 2px, transparent 2px);
+    background-repeat: repeat;
     background-size: 20px 20px;
 }
 
-/* EJEMPLO 5 */
+/* EJEMPLO 5: FONDO COMPLETO */
 .fondo5 {
     background: linear-gradient(to bottom, lightgreen, lightblue);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 200px;
     padding: 50px;
+}
+
+/* VIDEO */
+video {
+    max-width: 95%;
+    height: auto;
 }
