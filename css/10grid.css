@@ -28,7 +28,7 @@ p {
     line-height: 1.5;
 }
 
-/* EJEMPLO GENERAL */
+
 .ejemplo {
     width: 600px;
     margin: 30px auto;
@@ -37,7 +37,7 @@ p {
     border: 5px solid;
 }
 
-/* CAJAS */
+
 .contenedor {
     margin-top: 20px;
 }
@@ -51,7 +51,7 @@ p {
     font-weight: bold;
 }
 
-/* EJEMPLO 1 */
+
 .grid1 {
     background-color: lightblue;
     border-color: blue;
@@ -68,7 +68,7 @@ p {
     color: white;
 }
 
-/* EJEMPLO 2 */
+
 .grid2 {
     background-color: lightgreen;
     border-color: green;
@@ -85,7 +85,7 @@ p {
     color: white;
 }
 
-/* EJEMPLO 3 */
+
 .grid3 {
     background-color: lightyellow;
     border-color: orange;
@@ -103,7 +103,7 @@ p {
     color: white;
 }
 
-/* EJEMPLO 4 */
+
 .grid4 {
     background-color: pink;
     border-color: red;
@@ -120,7 +120,7 @@ p {
     color: white;
 }
 
-/* EJEMPLO 5 */
+
 .grid5 {
     background-color: lavender;
     border-color: purple;

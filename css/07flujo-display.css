@@ -28,7 +28,7 @@ p {
     line-height: 1.5;
 }
 
-/* EJEMPLO GENERAL */
+
 .ejemplo {
     width: 700px;
     max-width: 95%;
@@ -37,14 +37,14 @@ p {
     text-align: center;
 }
 
-/* EJEMPLO 1: BLOCK */
+
 .display1 {
     display: block;
     background-color: lightblue;
     border: 5px solid blue;
 }
 
-/* EJEMPLO 2: INLINE */
+
 .display2 {
     background-color: #E8F8F5;
     border: 5px solid teal;
@@ -64,7 +64,7 @@ p {
     padding: 10px;
 }
 
-/* EJEMPLO 3: INLINE-BLOCK */
+
 .display3 {
     background-color: #FEF5E7;
     border: 5px solid darkorange;
@@ -82,7 +82,7 @@ p {
     vertical-align: middle;
 }
 
-/* EJEMPLO 4: DISPLAY NONE */
+
 .display4 {
     background-color: pink;
     border: 5px solid red;
@@ -92,7 +92,7 @@ p {
     display: none;
 }
 
-/* EJEMPLO 5: FLUJO NORMAL */
+
 .display5 {
     display: block;
     background-color: lavender;
@@ -108,7 +108,7 @@ p {
     max-width: 300px;
 }
 
-/* VIDEO */
+
 video {
     max-width: 95%;
     height: auto;

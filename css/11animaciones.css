@@ -28,7 +28,7 @@ p {
     line-height: 1.5;
 }
 
-/* EJEMPLO GENERAL */
+
 .ejemplo {
     width: 600px;
     margin: 30px auto;
@@ -47,7 +47,7 @@ p {
     font-weight: bold;
 }
 
-/* EJEMPLO 1 */
+
 .animacion1 {
     background-color: lightblue;
     border-color: blue;
@@ -69,7 +69,6 @@ p {
     }
 }
 
-/* EJEMPLO 2 */
 .animacion2 {
     background-color: lightgreen;
     border-color: green;
@@ -92,7 +91,7 @@ p {
     }
 }
 
-/* EJEMPLO 3 */
+
 .animacion3 {
     background-color: lightyellow;
     border-color: orange;
@@ -114,7 +113,7 @@ p {
     }
 }
 
-/* EJEMPLO 4 */
+
 .animacion4 {
     background-color: pink;
     border-color: red;
@@ -136,7 +135,7 @@ p {
     }
 }
 
-/* EJEMPLO 5 */
+
 .animacion5 {
     background-color: lavender;
     border-color: purple;

@@ -28,7 +28,7 @@ p {
     line-height: 1.5;
 }
 
-/* EJEMPLO GENERAL */
+
 .ejemplo {
     width: 500px;
     margin: 30px auto;
@@ -36,14 +36,14 @@ p {
     text-align: center;
 }
 
-/* EJEMPLO 1 */
+
 .posicion1 {
     position: static;
     background-color: lightblue;
     border: 5px solid blue;
 }
 
-/* EJEMPLO 2 */
+
 .posicion2 {
     position: relative;
     background-color: lightgreen;
@@ -51,7 +51,7 @@ p {
     left: 30px;
 }
 
-/* EJEMPLO 3 */
+
 .posicion3 {
     position: relative;
     background-color: lightyellow;
@@ -69,7 +69,6 @@ p {
     border: 3px solid darkorange;
 }
 
-/* EJEMPLO 4 */
 .posicion4 {
     background-color: pink;
     border: 5px solid red;
@@ -86,7 +85,7 @@ p {
     border: 3px solid darkred;
 }
 
-/* EJEMPLO 5 */
+
 .posicion5 {
     position: sticky;
     top: 10px;
